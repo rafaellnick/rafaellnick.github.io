@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="/logo.92136df5.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="/logo.c4c9516a.ico" type="image/x-icon">
 
   <!--
     - custom css link
@@ -46,7 +46,7 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Rafael">Rafael Lago</h1>
+          <h1 class="name" title="Rafael Lago">Rafael Lago</h1>
 
           <p class="title">Web developer</p>
         </div>
@@ -79,7 +79,6 @@
 
           </li>
 
-
           <li class="contact-item">
 
             <div class="icon-box">
@@ -89,7 +88,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">September 1st, 2002</time>
+              <time datetime="2002-09-01">September 1st, 2002</time>
             </div>
 
           </li>
@@ -114,9 +113,14 @@
 
         <ul class="social-list">
 
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rafaellnick" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
 
           <li class="social-item">
-            <a href="https:/www.twitter.com/rafaellnick" class="social-link">
+            <a href="https://www.twitter.com/rafaellnick" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
@@ -160,14 +164,6 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link="">Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link="">Blog</button>
-          </li>
-
-          <li class="navbar-item">
             <button class="navbar-link" data-nav-link="">Contact</button>
           </li>
 
@@ -191,12 +187,16 @@
 
         <section class="about-text">
           <p>
-            I'm an Exact Sciences undergraduate at Federal University of Juiz de Fora, 
-            with a desire to learn further in web development.
+            I'm a 20 year old Exact Sciences undergraduate at <abbr title="Universidade Federal de Juiz de Fora, on Portuguese">Federal University of Juiz de Fora</abbr>, 
+            with a desire to gradute on Computer Science.
           </p>
-      
+
+          <p>
+            My journey with Web developing started in 2021, with a desire to learn more about HTML, CSS and JavaScript.
+            I aspire to someday become a great full-stack developer.
+          </p>
         </section>
-      </article>
+
 
         <!--
           - service
@@ -224,6 +224,7 @@
 
             </li>
 
+
             <li class="service-item">
 
               <div class="service-icon-box">
@@ -242,7 +243,58 @@
             </li>
 
           </ul>
+
         </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container="">
+
+          <div class="overlay" data-overlay=""></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn="">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="/avatar-1.998dddf7.png" alt="Daniel lewis" width="80" data-modal-img="">
+              </figure>
+
+              <img src="/icon-quote.63e00dfe.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title="">Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text="">
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        
+      </article>
+
 
 
 
@@ -298,7 +350,7 @@
 
         </section>
 
-        <section class="skill">
+       <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
 
@@ -329,6 +381,18 @@
               </div>
 
             </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design (With Adobe Photoshop)</h5>
+                <data value="70">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+
+            </li>
 
           </ul>
 
@@ -344,6 +408,433 @@
         - #PORTFOLIO
       -->
 
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn="">All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="">Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="">Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="">Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select="">
+
+              <div class="select-value" data-selecct-value="">Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item="">All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="">Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="">Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="">Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-1.7324bd75.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-2.248397a9.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-3.c0e7097b.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-4.dd1d5584.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-5.5ad80ab3.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-6.55f8eb2b.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-7.440ec6f4.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-8.a0472e94.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/project-9.99672000.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/blog-1.e1086d5f.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/blog-2.e903631f.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/blog-3.8a0a76eb.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/blog-4.0f84da07.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/blog-5.0971a063.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/blog-6.6db8c81c.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
 
       <!--
         - #CONTACT
@@ -357,13 +848,16 @@
 
         <section class="mapbox" data-mapbox="">
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.085686046457!2d-43.37117208542798!3d-21.77694450400399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b9f99b33491%3A0xd9b48a8f80341c0d!2sJuiz%20de%20Fora%20Federal%20University!5e0!3m2!1sen!2sbr!4v1661904206370!5m2!1sen!2sbr" width="600" height="400" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd" width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
 
         <section class="contact-form">
+
           <h3 class="h3 form-title">Contact Form</h3>
+
           <form action="#" class="form" data-form="">
+
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required="" data-form-input="">
 
@@ -376,10 +870,15 @@
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
+
           </form>
+
         </section>
+
       </article>
+
     </div>
+
   </main>
 
 
