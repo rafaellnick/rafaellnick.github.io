@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import viteLogo from './assets/lauradesmonte.png'
+import rafaellago from './assets/rafaellago.png'
 import './App.css'
 
 function App() {
@@ -9,21 +9,21 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://instagram.com/lauragismonti" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://linkedin.com/rafaellnick" target="_blank">
+          <img src={rafaellago} className="logo" alt="Vite logo" />
         </a>
       </div>
-      <h1>Laura Gismonti, odontologista</h1>
+      <h1>Rafael Lago - desenvolvedor web front-end</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Votaram na Laura no BBB {count} vezes!
+          Clicou no botão {count} vezes!
         </button>
         <p>
-          Ado ado ado o Quintão é um viado.
+          Página em construição, React + TypeScript.
         </p>
       </div>
       <p className="read-the-docs">
-        Um abraço à Central do Galo 2.0
+        On construction.
       </p>
     </>
   )
